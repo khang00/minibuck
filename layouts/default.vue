@@ -4,7 +4,7 @@
     <v-content>
       <v-container fluid>
         <v-row align="center" justify="center" no-gutters>
-          <v-col cols="10">
+          <v-col cols="12">
             <nuxt />
           </v-col>
         </v-row>
