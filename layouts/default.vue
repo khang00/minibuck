@@ -6,11 +6,7 @@
     </v-app-bar>
     <v-content>
       <v-container fluid>
-        <v-row align="center" justify="center" no-gutters>
-          <v-col cols="12">
-            <nuxt />
-          </v-col>
-        </v-row>
+        <nuxt />
       </v-container>
     </v-content>
   </v-app>
