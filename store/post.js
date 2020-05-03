@@ -6,7 +6,9 @@ export const state = () => ({
 
 export const mutations = {
   setPosts (state, posts) {
-    state.posts = posts
+    posts.forEach((post) => {
+      state.posts.push(post)
+    })
   }
 }
 

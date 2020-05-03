@@ -1,6 +1,6 @@
 <template>
-  <v-card :height="height" :width="width" :tile="borderless">
-    <v-img :src="post.image" />
+  <v-card class="rounded-border" :height="height" :width="width" :tile="borderless">
+    <v-img max-height="90vh" :height="height" :width="width" :src="post.image" contain />
   </v-card>
 </template>
 
@@ -31,4 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .rounded-border {
+    border-radius: 15px !important;
+  }
 </style>

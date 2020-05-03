@@ -1,5 +1,5 @@
 <template>
-  <v-card :height="height" :width="width" :tile="borderless">
+  <v-card class="rounded-border" :height="height" :width="width" :tile="borderless">
     <v-card-actions>
       <v-list-item>
         <v-list-item-avatar>
@@ -55,5 +55,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .rounded-border {
+    border-radius: 15px !important;
+  }
 </style>
